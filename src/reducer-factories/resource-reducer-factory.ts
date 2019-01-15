@@ -1,4 +1,4 @@
-import isEqual from 'lodash.isequal';
+import { isEqual } from 'lodash-es';
 import combineFactories from './combine-reducer-factories/combine-factories';
 import { ReduxSliceState, MakeReducerConfiguration } from './type-definitions';
 import { Action } from '../actions/type-definitions';

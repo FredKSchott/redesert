@@ -1,6 +1,4 @@
-import cloneDeep from 'lodash.clonedeep';
-import set from 'lodash.set';
-import unset from 'lodash.unset';
+import { cloneDeep, set, unset } from 'lodash-es';
 
 import { ReducerConfig, ReduxSliceState } from './../type-definitions';
 import {

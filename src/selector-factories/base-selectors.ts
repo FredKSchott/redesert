@@ -1,5 +1,4 @@
-import camelCase from 'lodash.camelcase';
-import capitalize from 'lodash.capitalize';
+import { camelCase, capitalize } from 'lodash-es';
 import { createSelector } from 'reselect';
 import { ReduxSliceState } from './../reducer-factories/type-definitions';
 
